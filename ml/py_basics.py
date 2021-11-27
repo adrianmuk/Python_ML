@@ -1,0 +1,13 @@
+x = [1, 2, 3, [4, 5, ['target', 'Book']]]
+y = set()
+y.add(4)
+y.add(3)
+y.add(2)
+y.add(1)
+y.add(5)
+y.add(4)
+y.add(4)
+y.add(4)
+y.add(4)
+print(x[3][2])
+print(tuple(x[3]), "\n", y)
